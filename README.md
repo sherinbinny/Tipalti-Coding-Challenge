@@ -10,7 +10,7 @@ You are free to make changes to the template but please be aware that those revi
 
 ## Usage
 
-To use the repository for your challenge submission, please fork the repository to your own Github account and then clone locally and begin development. Please DO NOT try to push branches or make pull requests to the original source template repository.
+To use the repository for your challenge submission, please clone the repository and create a new repository on your own Github account . Please DO NOT try to push branches, make pull requests  or fork the original source template repository.
 
 ### Installation
 
