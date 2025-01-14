@@ -22,8 +22,8 @@ function App() {
           {expenses.map((transaction: Expense) => (
             <tr key={transaction.id}>
               <td>{transaction.id}</td>
-              <td>{transaction.date}</td>
-              <td>{transaction.amount}</td>
+              <td>{new Date(transaction.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} - {new Date(transaction.date).toLocaleDateString('en-GB')}</td>
+              <td>£{transaction.amount.toFixed(2)}</td>
               <td>{transaction.merchant}</td>
               <td>{transaction.category}</td>
             </tr>
