@@ -20,7 +20,7 @@ To get started with the project, follow the steps below:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/expenses-tracker-app.git
+git clone https://github.com/sherinbinny/Tipalti-Coding-Challenge.git
 ```
 
 ### 2. Install dependencies
