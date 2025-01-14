@@ -78,3 +78,38 @@ a {
   color: #0070f3;
   text-decoration: none;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 0 auto; /* Center the table */
+  max-width: 80%; /* Set a max width for table */
+}
+
+/* Capitalize the first letter of the Category column */
+table td:last-child {
+  text-transform: capitalize;
+}
