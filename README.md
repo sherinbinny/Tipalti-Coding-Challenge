@@ -27,19 +27,20 @@ git clone https://github.com/sherinbinny/Tipalti-Coding-Challenge.git
 
 Navigate to the project directory and install the required dependencies:
 
-cd expenses-tracker-app
+cd expenses-tracker-app\
 npm install
 
 ### 3. Run the app
 To run the development server, use the following command:
 
 npm run dev
+
 The app will be available at http://localhost:5173/ by default.
 
 ### Technologies Used
-React
-TypeScript
-Vite (for bundling and development server)
+React\
+TypeScript\
+Vite (for bundling and development server)\
 Fetch API for data fetching
 
 ## Screenshot
